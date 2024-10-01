@@ -13,14 +13,14 @@ const Hero = () => {
             <TypeAnimation
               sequence={[
                 "Web Developer",
-                3000,
+                2000,
                 "React Developer",
-                3000,
+                2000,
                 "Freelancer",
-                3000,
+                2000,
               ]}
               cursor={false}
-              wrapper="span"
+              wrapper="div"
               speed={5}
               className="hero__subtitle"
               repeat={Infinity}

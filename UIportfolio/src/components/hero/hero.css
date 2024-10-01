@@ -1,6 +1,5 @@
 /* Hero Section */
 .hero {
-  height: 98vh;
   display: flex;
   justify-content: center;
   position: relative; /* For positioning the background image */
@@ -58,6 +57,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Stencil&display=swap");
 
 .hero__subtitle {
+  display: inline-block; 
+  min-height: 72px;
+  white-space: nowrap;
   font-family: "Stencil", sans-serif;
   font-size: 3rem;
   margin-bottom: 1rem;
